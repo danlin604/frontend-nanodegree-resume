@@ -1,7 +1,13 @@
-$("#main").append('DannyBoy');
+//let awesomeThoughts = 'I am Danny and I am AWESOME!';
 
-let firstName = 'james';
+//let funThroughts = awesomeThoughts.replace('AWESOME', 'FUN');
 
-let age = 32;
+//$("#main").append(funThroughts);
 
-console.log(firstName);
+//console.log(funThroughts);
+
+let formattedName = HTMLheaderName.replace('%data%', 'Danny');
+let formattedRole = HTMLheaderRole.replace('%data%', 'Developer');
+
+$("#header").prepend(formattedRole);
+$("#header").prepend(formattedName);
